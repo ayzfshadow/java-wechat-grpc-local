@@ -27,9 +27,6 @@ import static com.wxipad.wechat.tools.uitls.WechatUtil.getMd5;
 @Data
 @Slf4j
 public abstract class WechatExample extends Thread {
-
-    private static final Logger log = Logger.getLogger(WechatExample.class.getName());
-
     public static WechatReturn wechatReturn;
     public static final String redisk_key_loinged_user = "robot_logined_users";
     public static String ACCOUNT = "ming";
